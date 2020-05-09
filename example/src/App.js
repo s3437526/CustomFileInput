@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'photouploader'
-import 'photouploader/dist/index.css'
+import CustomFileInput from '../src/CustomFileInput'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CustomFileInput
+    inputProps={{
+      placeholder: "Placeholder..."
+    }} />
 }
 
 export default App

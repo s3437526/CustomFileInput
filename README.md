@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save photouploader
+npm install --save @dukman/photouploader
 ```
 
 ## Usage
@@ -15,15 +15,17 @@ npm install --save photouploader
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'photouploader'
-import 'photouploader/dist/index.css'
+import CustomFileInput from '@dukman/photouploader'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <CustomFileInput />
   }
 }
 ```
+
+Examples:
+https://demos.creative-tim.com/material-kit-pro-react/#/documentation/file-input
 
 ## License
 
