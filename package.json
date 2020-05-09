@@ -58,5 +58,13 @@
     "classnames": "^2.2.6",
     "npm": "^6.14.5",
     "yargs-parser": "^18.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s3437526/CustomFileInput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s3437526/CustomFileInput/issues"
+  },
+  "homepage": "https://github.com/s3437526/CustomFileInput#readme"
 }
